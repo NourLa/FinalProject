@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="SalsaCalendar.min.js"></script>
+  <link rel="stylesheet" href="SalsaCalendar.min.css">
+  <script src="mdb.min.js"></script>
+  <link rel="stylesheet" href="mdb.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" width="65%" height="80%">
+    </div>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Hiking</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="Ghar El Melh, Cap Farina\index.html">Ghar El Melh, Cap Farina</a>
+          <a class="dropdown-item" href="Ain drahem & Oued Zen\ouedzen.html">Ain drahem & Oued Zen</a>
+          <a class="dropdown-item" href="Ain D’hab\aindhab.html">Ain D’hab</a>
+          <a class="dropdown-item" href="korbos\korbos.html">korbos</a>
+          <a class="dropdown-item" href="Parc El Feija et Aïn Soltan\elfejia.html">Parc El Feija et Aïn Soltan</a>
+          <a class="dropdown-item" href="Zriba El Olia et Takrouna\index.html">Zriba El Olia et Takrouna</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Gastronomy</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Gastronomie\dishes.html">Tunisien
+            Dishes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Beaches</a>
+        <div class="dropdown-menu"> <a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\bestbeach\beach.html">Best
+            Beaches</a>
+        </div>
+      </li>
+ 
+      <li class="nav-item">
+        <a class="nav-link" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\form.html">Contact us</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div class="main_header">
+      <div class="form-button">
+        <div class="button-container" data-toggle="modal" data-target=".bd-example-modal-sm">
+          <a href="#" class="button submit-button">Get A Tour <i class="fas fa-forward"></i></a>
+        </div>
+      </div>
+
+      <div class="modal fade bd-example-modal-sm" id="modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger">
+          <div class="modal-content">
+            <div class="tour-search-form placeholder-form" id="mainh">
+              <div class="form-title">
+                <h4>Find the Perfect Tour</h4>
+              </div>
+              <form role="search">
+                <div class="select-field">
+                  <select name="destination" id="destination" class="postform" style="opacity: 1;">
+                    <option value="" disabled selected>All Destinations...</option>
+                    <option class="level-0" value="6"> Tunis</option>
+                    <option class="level-0" value="7">Sfax</option>
+                    <option class="level-0" value="8">Sousse</option>
+                    <option class="level-0" value="11">Ariana</option>
+                    <option class="level-0" value="12"> Kairouan</option>
+                    <option class="level-0" value="15">Bizerte</option>
+                    <option class="level-0" value="16"> Gabès</option>
+                    <option class="level-0" value="18">Kasserine</option>
+                    <option class="level-0" value="20">Ben Arous</option>
+                    <option class="level-0" value="21">Monastir</option>
+                    <option class="level-0" value="22">Médenine</option>
+                    <option class="level-0" value="23">La Manouba</option>
+                  </select>
+                  </span>
+                </div>
+                <div class="select-field">
+                  <select name="type" id="type" class="postform" style="opacity: 1;">
+                    <option value="" disabled selected> All Tours... </option>
+                    <option class="level-0" value="9">Cultural</option>
+                    <option class="level-0" value="10">Educational</option>
+                    <option class="level-0" value="13">Hiking</option>
+                    <option class="level-0" value="14">Honeymoon</option>
+                    <option class="level-0" value="17">Nature</option>
+                    <option class="level-0" value="19">Religious</option>
+                  </select>
+                </div>
+                <input type="text" id="checkin" class="salsa-calendar-input" autocomplete="off" name="arrival" value=""
+                  placeholder="Departure Date" />
+                <span class="counter"></span>
+                <span class="singular" style="display:none;">night</span>
+                <span class="plural" style="display:none;">nights</span>
+                <input type="text" id="checkout" class="salsa-calendar-input" autocomplete="off" name="departure" value=""
+                  placeholder="Arrival Date" />
+                <div class="form-button">
+                  <div class="button-container1">
+                    <a href="#" class="button submit-button" onclick="clicksearchoff()">Search Tours</a>
+                  </div>
+<br/>
+                
+                  <div class="button-container2"style=" margin-top: 3%;" >
+                <a  id="load_tour"  href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Tours\nosproduits.html">All Tours</a>
+              </div>
+              </div>
+              </form>
+              <button type="button" class="close" aria-label="Close" onclick="clicksearchoff()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="photos">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" id="img1carousel" height="412px" src="img1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-100" id="img2carousel" height="412px" src="http://www.marrakechriad.nl/wp-content/uploads/2016/05/SI_ALK_4159D-w2880.jpg"
+                alt="Second slide">
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-100" id="img3carousel" height="412px" src="http://www.jneyne.com/wp-content/uploads/2015/06/fond-sitvie-12.jpg"
+                alt="Third slide">
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-100" id="img4carousel" height="412px" src="http://www.jneyne.com/wp-content/uploads/2015/06/fond-site1.jpg"
+                alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br />
+    <br />
+    <div class="mainbody">
+      <div class="explore_tunisia">
+        <div class="explore_tunisia_details">
+          <div class="img-google">
+            <img class="img_tunisia" src="carte-link.png">
+            <div class="map-static__attribution">
+              © <a href="https://www.mapbox.com/about/maps/">Mapbox</a>
+              © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>
+              <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>
+              <br /> <br />
+            </div>
+            <a href="https://www.google.tn/maps/place/Tunisie/@35.6324069,8.1371132,7.5z/data=!4m5!3m4!1s0x125595448316a4e1:0x3a84333aaa019bef!8m2!3d33.886917!4d9.537499">
+              <button type="button" class="btn btn-primary"> <i class="fas fa-map-marker-alt"></i> Launch Map View</button>
+              </button></a>
+          </div>
+          <div class="ligne1"></div>
+          <div class="details_tunisie">
+            <div class="title_img"> Explore Tunisia</div>
+            <div class="ligne"></div>
+            <div class="textimg">
+              It may be but a slim wedge of North Africa’s vast horizontal expanse, but Tunisia has enough history and
+              diverse natural beauty to pack a country many times its size. With a balmy, sand-fringed Mediterranean
+              coast, scented with jasmine and sea breezes, and where the fish on your plate is always fresh, Tunisia is
+              prime territory for a straightforward sun-sand-and-sea holiday.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="select-tours">
+        <div class="title__subtitle">Find a Tour by
+          <h3 class="title__primary">Tour Type</h3>
+        </div>
+        <div class="ligne"></div>
+        <ul class="divers">
+          <li class="divers-img" >
+            <div class="iconeimg1">
+              <i class="fas fa-parachute-box"></i> <span class="tours-type-icons__item__content"> <br />Air Rides
+              </span>
+          </li>
+          <li class="divers-img">
+            <div class="iconeimg1">
+              <i class="fas fa-hiking"></i> <span class="tours-type-icons__item__content"> <br />Hiking </span>
+          </li>
+          <li class="divers-img">
+            <div class="iconeimg1">
+              <i class="fas fa-trophy"></i> <span class="tours-type-icons__item__content"> <br />Sports </span>
+          </li>
+          <li class="divers-img">
+            <div class="iconeimg1">
+              <i class="fas fa-walking"></i> <span class="tours-type-icons__item__content"> <br />walking </span>
+          </li>
+        </ul>
+        </a>
+      </div>
+      <div class="card-columns">
+        <div class="carddiv1">
+          <div class="card">
+            <img class="card-img-top" style="    border-radius: calc(.25rem - 1px);" src="https://lh3.googleusercontent.com/-u5zmWtIp23E/VWyV56lnEiI/AAAAAAAH4n0/UKjUg-qWBZ0/cereales_849975_679x417.jpg?imgmax=576"
+              width="222" height="216" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rando</h5>
+              <p class="card-text">Découvrez la Tunisie rurale, en randonnant dans l’intérieur du pays !
+              </p>
+            </div>
+          </div>
+          <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Découvrez la Tunisie gastronomique, en vous régalant de plats et desserts traditionnels et succulents
+                !</p>
+              <div class="showmorebutton">
+                <button type="button" class="btn btn-primary"> <i class="fas fa-forward"></i> Show More </button>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <div class="carddiv2">
+          <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+              <p>Découvrez la Tunisie authentique, en rencontrant les artisans d’un tourisme durable</p>
+              <div class="ligne"></div>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img-top" style="border-radius: calc(.25rem - 1px);" src="https://st3.depositphotos.com/1850169/17981/i/1600/depositphotos_179817348-stock-photo-nabeul-tunisia-july-2017-cityscape.jpg"
+              width="222" height="216" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rando Urbaine</h5>
+              <p class="card-text">Découvrez la Tunisie culturelle, en parcourant les dédales des médinas !</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Divers</h5>
+              <p class="card-text">Découvrez la Tunisie facilement, avec nos bons plans et bonnes adresses !</p>
+            </div>
+          </div>
+        </div>
+        <div class="carddiv3">
+          <div class="card" style="
+  margin-top: 27%;">
+            <img class="card-img" src="http://www.investir-en-tunisie.net/fr/wp-content/uploads/2015/05/images_articles_Plages_mahdia.jpg"
+              width="222" height="216" alt="Card image">
+          </div>
+          <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+              <p>Découvrez la Tunisie balnéaire, en profitant de magnifiques plages inconnues !</p>
+              <div class="showmorebutton1">
+                <button type="button" class="btn btn-primary"><i class="fas fa-backward"></i> Show More </button>
+              </div>
+            </blockquote>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Patrimoine</h5>
+              <p class="card-text">Découvrez la Tunisie historique, en visitant d’immenses monuments millénaires !</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer1">
+      <div class="about_us">
+
+        <div class="title_img_footer">
+          <div class="ligne3"></div> About Us
+        </div>
+        <div class="textwidget">
+          <div>We are a small company based in Sousse,Tunisie which delivers outstanding
+            adventure travel experiences.
+          </div>
+        </div>
+      </div>
+      <div class="youtube-channel">
+        <div class="title_img_footer">
+          <div class="ligne2"></div> Nos Videos
+        </div>
+        <br />
+        <div class="video_rando">
+         
+          <iframe width="250px"  class="video_rando1" height="200px" src="https://www.youtube.com/embed/lMjc-yvnJqQ" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="margin-right: 10px;"></iframe>
+           
+            <iframe width="250px" height="200px"  class="video_rando2" src="https://www.youtube.com/embed/wTsWUaD7Vfo" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>   
+        </div>
+      </div>
+      <div class="contact-info">
+        <div class="title_img_footer">
+          <div class="ligne4"></div> Contact Us
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-map-marker"></i></div>
+          <div class="contact-info__item__text"><span>Rue des Orangers, Khezama, Sousse</span></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-phone"></i></div>
+          <div class="contact-info__item__text"><a href="#">+216 50 757 327</a></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-envelope widget-contact-info__item__icon__email"></i></div>
+          <div class="contact-info__item__text"><a href="#">nourlahwaya@gmail.com</a></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fab fa-skype"></i></div>
+          <div class="contact-info__item__text"><a href="#">tunisia.inspiring</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer_icon">
+        <div class="footer__arrow-top"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
+      </div>
+      <div class="footer__copyright">© Tunisia Inspiring, 2018. Made with love and care by Youssef & Nour </a></div>
+    </div>
+    </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

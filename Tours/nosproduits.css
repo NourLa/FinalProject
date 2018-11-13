@@ -1,0 +1,297 @@
+
+main{
+    background-color: white; margin-bottom: 2%;
+	font-family: 'Barlow Condensed', sans-serif;
+    color: black;}
+body {   background-image: url("https://cdn.allevents.in/new/category/adventure-2.jpeg?fbclid=IwAR2V1kM4AhL0F1B6kjq9JZDIZCLd49y_-U5W50qEEccUYZD4uSSKMjIJRoY") ;
+    background-repeat: repeat; 
+    background-size: 120%;
+    font: 13px Open Sans, Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.5em;
+width: 100%!important;
+height: auto;}
+/*---------------Header*/
+.header1{ display: flex;
+    margin-right: 8%;
+    margin-top: 2%;
+    height: 15%;}
+    .nav{    padding-left: 18%;width: 66%; }
+a.nav-link:hover{
+    background-color: #FF9000;}
+a.nav-link{ color: white;     font-size: 16px;}
+.nav-pills .nav-item .nav-link.active{
+        background-color: #FF9000;
+        font-size: 16px; }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff; background-color: rgb(243, 182, 103); }
+.dropdown-item:hover{       color: #fff; background-color: rgb(243, 182, 103);}
+#imgpart1 {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 278px;
+    border: 5px;
+    border-style: groove;}
+#img2 {
+    margin-left: 5%;
+    border: 5px;
+    border-style: groove;
+    width: 89%;
+    height: 436px;}
+#img3{
+    width: 50%;}
+#img1{
+    width: 49%;
+    padding-right: 6px;}
+#img4 {
+    margin-left: 21%;
+    border: 5px;
+    border-style: groove;
+    height: 551px;}
+#imgpart1 {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 278px;}
+.text{text-align: center;       font-size: 16px;  margin: 2% 3%;}
+.title{
+    text-align: center;}
+
+
+
+/*---------------barside*/
+.barside {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    transform: translate(-54% , -36%);
+    width: 9%;}
+.listbarside{
+list-style: none;
+margin: 4px 3px;}
+.linkbarside {
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 60px;
+font-size: 32px;
+margin: 0 10px;
+display: block;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+border: -3px solid #eee;}
+#fb{background: #1636b3;}#fb:hover {background: #7b8edd;}
+#g{background: #ea1515;}#g:hover{background: #e75d5d;}
+#linkdin{background: #0274B3;}#linkdin:hover{background: rgb(77, 163, 209);}
+#twit{background: #1DA1F2;}#twit:hover{background: rgb(132, 207, 253);}
+.linkbarside .fab {position: relative;color: #eee;transition: .5s;}
+.linkbarside:hover .fab{transform: rotateY(360deg);}
+.linkbarside:before{
+content:"" ;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: red;
+transition:  .5s;}
+.linkbarside:hover:before{top:0;}
+
+
+/*----------------------------------------*/
+* { box-sizing: border-box;}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    width: 50%;
+    padding: 10px;}
+
+#starwars, #vtt{
+    padding: 2px 31px;
+    width:100%;
+    height: 360px;}
+#road-desert{
+    padding: 2px 15px;
+    width: 100%;
+    height: 360px;}
+#djerba{
+    padding: 2px 15px;
+    width: 100%;
+    height: 360px;}
+.row {
+    background-color: white;
+    margin-left: 0%;
+    margin-right: 0%;}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 6px 7px;
+    background-color: #ed8b0e;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 4.5%;
+    margin-top: 2%;}
+.btn:hover {
+    background-color: #ddd;}
+#btnContainer{    margin-top:2%;background-color: white;}
+.btn.active { background-color: transparent;
+    color: grey;}
+/*------------------------------*/
+.header .text {
+    text-align: -webkit-match-parent;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+   color: white;
+    background-color: rgb(0,0,0,0.3);
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;}
+.header h1 {
+    font-size: 3.5rem;}
+.header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-top: 8%;}
+.buttons{ display: flex;}
+.fas, .far {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 2px;
+    text-align: center;
+    color: #ED8B0E;
+    font-size: 16px;
+    font-weight: 600;}
+
+button {
+    background-color: rgba(255, 145, 0, 0.877);
+    border: 4px solid grey;
+    line-height: 2.5em;
+    margin-left: 15%;
+    padding: 0 11px;
+    color: whitesmoke;
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: -11px;
+    width: 23%;
+    font-size: 13.5px;
+}
+h2{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 5px;
+    color: black;
+    margin-left: 26%;
+    font-weight: 600;
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/* .image_star{ display: flex; flex-direction: column;} */
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+  margin-left: 32%;
+  margin-bottom: -5%;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+/*------------------footer-----*/
+.footer1{ background-color: rgba(0,0,0,0.5); display: flex; border-bottom:1px solid white; }
+.email_adress{padding: 13px 44px;}
+.youtube-channel{  width: 50%;     padding: 2% 4%;} 
+.footer1 a { color: white !important; }
+.about_us{     width: 22%;     padding: 2% 3%; font-size: 16px;    margin-bottom: 112px;}
+.video_rando{ display: flex; margin-left: 1%;}
+.contact-info { width: 30%;
+padding: 2.5% 0%;}
+.contact-info__item{ display: flex;     margin-bottom: 10px; vertical-align: middle;     }
+.contact-info__item__icon i {width: 1.688em;
+    height: 1.688em;
+    line-height: 1.688em;
+    border-radius: 100%;
+    background: white;
+    color: #4285f4;
+    font-size: 1.60em;
+    text-align: center;}
+.contact-info__item__text{padding: 7px 2px; }
+.title_img_footer{width: 53%;
+    font-family: 'Kaushan Script';
+    font: italic 400 18px/2.8em Oxygen;
+  
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-left: 21%;
+    margin-bottom: 1%; display: flex; color: white}
+.footer__arrow-top {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    background: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 100%;}
+.footer_icon{padding: 0% 48%; cursor: pointer;    margin-top: -2%;}
+.footer__copyright{     color: black;
+    padding: -4px 54%;
+    margin-left: 59%;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: oblique;}
+.footer__copyright:hover{background-color: rgba(255, 145, 0, 0.89);}
+footer {   background-image: url("https://cdn.allevents.in/new/category/adventure-2.jpeg?fbclid=IwAR2V1kM4AhL0F1B6kjq9JZDIZCLd49y_-U5W50qEEccUYZD4uSSKMjIJRoY") ;
+        background-repeat: no-repeat; 
+        background-size: 105%;
+        font: 15px Open Sans, Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: 600;
+        line-height: 1.5em;
+    width: 100%!important;} 
+.textwidget {margin-top: 34%; width: 123%; } 

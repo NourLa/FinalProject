@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+ 
+
+  <link rel="stylesheet" type="text/css" href="Form.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" width="65%" height="80%">
+    </div>
+    <ul class="nav nav-pills">
+				<li class="nav-item">
+				  <a class="nav-link " href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\index.html">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+					aria-expanded="false">Hiking</a>
+				  <div class="dropdown-menu">
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Ghar El Melh, Cap Farina\index.html">Ghar El Melh, Cap Farina</a>
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Ain drahem & Oued Zen\ouedzen.html">Ain drahem & Oued Zen</a>
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Ain D’hab\aindhab.html">Ain D’hab</a>
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\korbos\korbos.html">korbos</a>
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Parc El Feija et Aïn Soltan\elfejia.html">Parc El Feija et Aïn Soltan</a>
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Zriba El Olia et Takrouna\index.html">Zriba El Olia et Takrouna</a>
+				  
+		  
+				</li>
+				<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+							aria-expanded="false">Gastronomy</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\Gastronomie\dishes.html">Tunisien Dishes</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+							aria-expanded="false">Beaches</a>
+						<div class="dropdown-menu">     <a class="dropdown-item" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\bestbeach\beach.html">Best Beaches</a>
+						</div>
+					</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="C:\Users\hp\Desktop\PROJET GO MY CODE\FinalProject\form.html">Contact us</a>
+				  </li>
+			  </ul>
+  </header>
+  <main>
+    <div class="Form-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d202.1024880396531!2d10.608037552544237!3d35.85783470072606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x12fd8b92d29b7747%3A0xa2098951f47d6e46!2sgo+my+code+sousse%2C+Avenue+des+orangers%2C+Hammam+Sousse!3m2!1d35.8578148!2d10.6081372!5e0!3m2!1sfr!2stn!4v1541891312583"
+        width="100%" height="300" frameborder="1" style="border:0" allowfullscreen></iframe>
+      <div class="formulaire">
+        <div class="Form_contact" id="form">
+          <div class="title_form">
+            Contact Us </div>
+          <div class="ligne"></div>
+          <form method="post" name="Form" onsubmit="validateForm();return false;" required>
+            <div class="groupe1">
+              <div class="form-group">
+                <label for="formGroupExampleInput">Name :</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" style="font-family:FontAwesome !important"
+                  placeholder='&#xf2b9   Name'>
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Adress :</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" style="font-family:FontAwesome !important"
+                  placeholder="&#xf2bb   Adress">
+              </div>
+            </div>
+            <div class="groupe2">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address :</label>
+                <input type="emailtext" class="form-control" id="exampleFormControlInput1" onblur="verifMail(this)"
+                  style="font-family:FontAwesome !important" placeholder="&#xf199  name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password :</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" onblur="verifPassword(this)"
+                  style="font-family:FontAwesome !important" placeholder="&#xf084   Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Comments :</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="font-family:FontAwesome !important"
+                placeholder='&#xf075   Message'></textarea>
+            </div>
+            <div class name="buttonsForm">
+              <button id="subButton" type="submit" class="btn btn-primary">Send</button>
+              <button type="button" id="resetbutton" class="btn btn-primary" onclick="resetcontent()" value="Reset form">Reset</button>
+            </div>
+          </form>
+        </div>
+        <div class="ligne1"></div>
+        <div class="Form_newsletter">
+          <div class="subcribe-mail">
+            <div class="section-title">
+              <div class="title_form">
+                Join The Newsletter </div>
+            </div>
+            <div class="ligne"></div>
+            <div class="mail">
+              <form action="#" method="POST" class="ajax-form">
+                <div class="form-group">
+                  <label for="Input1_News">Subscribe to our newsletter now to stay updated with what's new with Tunisia
+                    Inspiring!</label> <br /> <br />
+                  <input type="emailtext" class="form-control" id="Input1_News" onblur="verifMailnews(this)" style="font-family:FontAwesome !important"
+                    placeholder="&#xf199   name@example.com">
+                </div>
+                <div class="message"><button type="submit" class="btn btn-primary" method="POST" onclick="Validate_Subscribe();return false;"
+                    required>Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer1">
+      <div class="about_us">
+  <div class="title_img_footer">
+          <div class="ligne3"></div> About Us
+        </div>
+        <div class="textwidget">
+          <div>We are a small company based in Sousse,Tunisie which delivers outstanding
+            adventure travel experiences.
+          </div>
+        </div>
+      </div>
+      <div class="youtube-channel">
+        <div class="title_img_footer">
+          <div class="ligne2"></div> Nos Videos
+        </div>
+        <div class="video_rando">
+          <iframe width="250px" class="video_rando1" height="200px" src="https://www.youtube.com/embed/lMjc-yvnJqQ" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="margin-right: 10px;"></iframe>
+          <iframe width="250px" class="video_rando2" height="200px" src="https://www.youtube.com/embed/wTsWUaD7Vfo" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+  <div class="contact-info">
+        <div class="title_img_footer">
+          <div class="ligne4"></div> Contact Us
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-map-marker"></i></div>
+          <div class="contact-info__item__text"><span>Rue des Orangers, Khezama, Sousse</span></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-phone"></i></div>
+          <div class="contact-info__item__text"><a href="#">+216 50 757 327</a></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fa fa-envelope widget-contact-info__item__icon__email"></i></div>
+          <div class="contact-info__item__text"><a href="#">nourlahwaya@gmail.com</a></div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__item__icon"><i class="fab fa-skype"></i></div>
+          <div class="contact-info__item__text"><a href="#">tunisia.inspiring</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer_icon">
+        <div class="footer__arrow-top"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
+      </div>
+      <div class="footer__copyright">© Tunisia Inspiring, 2018. Made with love and care by Youssef & Nour </a></div>
+    </div>
+    </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+main{
+    background-color: white; margin-bottom: 2%;
+	font-family: 'Barlow Condensed', sans-serif;
+    color: black;}
+body {   background-image: url("https://cdn.allevents.in/new/category/adventure-2.jpeg?fbclid=IwAR2V1kM4AhL0F1B6kjq9JZDIZCLd49y_-U5W50qEEccUYZD4uSSKMjIJRoY") ;
+    background-repeat: no-repeat; 
+    background-size: 105%;
+    font: 13px Open Sans, Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.5em;
+width: 100%!important;
+height: auto;}
+/*---------------Header*/
+.header1{ display: flex;
+    margin-right: 8%;
+    margin-top: 2%;
+    height: 15%;}
+    .nav{    padding-left: 18%;width: 66%; }
+a.nav-link:hover{
+    background-color: #FF9000;}
+a.nav-link{ color: white;     font-size: 16px;}
+.nav-pills .nav-item .nav-link.active{
+        background-color: #FF9000;
+        font-size: 16px; }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff; background-color: rgb(243, 182, 103); }
+.dropdown-item:hover{       color: #fff; background-color: rgb(243, 182, 103);}
+
+#imgpart1 {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 278px;
+    border: 5px;
+    border-style: groove;
+}
+#img2 {
+    margin-left: 5%;
+    border: 5px;
+    border-style: groove;
+    width: 89%;
+    height: 436px;
+}
+#img3{
+	width: 50%;
+}
+#img1{
+	width: 49%;
+	padding-right: 6px;
+}
+#img4 {
+    margin-left: 21%;
+    border: 5px;
+    border-style: groove;
+    height: 551px;
+}
+#imgpart1 {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 278px;
+}
+.text{text-align: center;       font-size: 16px;  margin: 2% 3%;}
+.title{
+	text-align: center;
+}
+/*---------------barside*/
+.barside {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    transform: translate(-54% , -36%);
+    width: 9%;}
+
+.listbarside{
+list-style: none;
+margin: 4px 3px;}
+.linkbarside {
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 60px;
+font-size: 32px;
+margin: 0 10px;
+display: block;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+border: -3px solid #eee;
+}
+#fb{background: #1636b3;}#fb:hover {background: #7b8edd;}
+#g{background: #ea1515;}#g:hover{background: #e75d5d;}
+#linkdin{background: #0274B3;}#linkdin:hover{background: rgb(77, 163, 209);}
+#twit{background: #1DA1F2;}#twit:hover{background: rgb(132, 207, 253);}
+.linkbarside .fab {position: relative;color: #eee;transition: .5s;}
+.linkbarside:hover .fab{transform: rotateY(360deg);}
+.linkbarside:before{
+content:"" ;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: red;
+transition:  .5s;}
+.linkbarside:hover:before{top:0;}
+
+/*Footer*/
+
+.message{    width: 28%;}
+.footer1{ background-color: rgba(0,0,0,0.3); display: flex; border-bottom:1px solid white; }
+ .email_adress{padding: 13px 44px;}
+.youtube-channel{  width: 50%;     padding: 2% 4%;} 
+.footer1 a { color: white !important; }
+.about_us{     width: 22%;     padding: 2% 3%; font-size: 16px;    margin-bottom: 145px;}
+.video_rando{ display: flex; margin-left: 1%;}
+.contact-info { width: 30%; padding: 2.5% 0%;}
+.contact-info__item{ display: flex;     margin-bottom: 10px; vertical-align: middle;     }
+.contact-info__item__icon i {
+    width: 1.688em;
+    height: 1.688em;
+    line-height: 1.688em;
+    border-radius: 100%;
+    background: white;
+    color: #4285f4;
+    font-size: 1.60em;
+    text-align: center;}
+.contact-info__item__text{padding: 7px 2px; }
+.title_img_footer{width: 53%;
+    font-family: 'Kaushan Script';
+    font: italic 400 18px/2.8em Oxygen;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-left: 21%;
+    margin-bottom: 1%; display: flex; color: white}
+.footer__arrow-top {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    background: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 100%;}
+.footer_icon{padding: 0% 48%; cursor: pointer;    margin-top: -2%;}
+.footer__copyright{color: black;
+    margin-left: 63%;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 0%;}
+    .footer__copyright:hover{background-color: rgb(245, 184, 104);}
+.Form-map{     background-color: white; display: flex;  flex-direction: column;}
+.formulaire{ display: flex; width: 100%;     HEIGHT: 412px;     padding: 0% 8%; }
+.Form_contact{ width: 72%;         padding: 4px 65px;}
+.title_form{width: 53%;
+        font-family: 'Kaushan Script';
+        font: italic 400 18px/2.8em Oxygen;
+        font-size: 24px;
+        font-weight: 400;
+        color: black;
+        margin-left: 21%;
+        margin-bottom: 1%; display: flex; }
+.groupe2{ display: flex;}
+.groupe1{ display: flex;}
+.Form_newsletter{ margin-left:10%;}
+.subcribe-mail{      padding: 2% 0%; }
+.form-group{margin-right: 8%; } 
+ label {
+        display: inline-block;
+        max-width: 100%;
+        margin-top: 1%;
+        margin-bottom: 5px;
+        font-weight: 700;
+        color:black;}
+.message .btn.btn-primary {margin-left: 240%;
+    padding: 6px 12px;} 
+.form-control { width: 105%;} 
+footer {   background-image: url("https://cdn.allevents.in/new/category/adventure-2.jpeg?fbclid=IwAR2V1kM4AhL0F1B6kjq9JZDIZCLd49y_-U5W50qEEccUYZD4uSSKMjIJRoY") ;
+    background-repeat: no-repeat; 
+    background-size: 105%;
+    font: 13px Open Sans, Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.5em;
+width: 100%!important;} 
+.ligne2{ 
+    background: #47a0ff;
+    margin-left: 30%;
+    width: 6px;
+    margin-right: 8%;
+    line-height: 2px;
+    margin-bottom: 6%;
+    margin-top: 6%;}
+    .ligne3{ 
+        background: #47a0ff;
+        width: 6px;
+        margin-right: 12%;
+        margin-left: 1%;
+        margin-bottom: 15%;
+        margin-top: 16%;}
+        .ligne4{ 
+            background: #47a0ff;
+            margin-left: 30%;
+            width: 6px;
+            margin-right: 8%;
+            line-height: 2px;
+            margin-bottom: 10%;
+            margin-top: 6%;}
+            
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: rgba(255, 145, 0, 0.877);
+    border: 4px solid;
+    line-height: 2.3em;
+    font-size: 1.3em;
+    padding: 0 55px;
+    color: whitesmoke;
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 20px;}
+  .far.fa-comments{color:white;
+    font-size: 1.3em; }
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;}
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 281px;
+    padding: 10px;
+    background-color: white; }
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;}
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;}
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 10%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom:10px;
+    opacity: 0.8;}
+  .form-container h1 { font-size: 14px; }
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red; }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover { opacity: 1; }
+
+  @media only screen and (max-device-width: 480px)  {
+    .nav {width: 195%; padding-left: 7%; margin-bottom: 3%;}
+    .logo img{ width: 160%;}
+    a.nav-link, .nav-pills .nav-item .nav-link.active  { font-size: 20px;}
+    .title_img_footer {
+        width: 77%;}
+.youtube-channel {padding: 2% 0%;}
+.about_us { padding: 2% 2%;}
+.video_rando { margin-left: 0%;}
+.text {font-size: 23px;
+    line-height: 24px;}
+label{     width: 141%;   line-height: 42px;  font-weight: 600;}
+.youtube-channel {padding: 2% 0%;}
+.about_us {  width:100%;   font-size: 30px; margin-bottom: 2px; }
+.contact-info {    width: 100%;  padding: 2.5% 7%;}
+.textwidget { margin-top: 2%; margin-left: 1%; width: 100%;    font-size: 23px; }
+.video_rando { margin-left: 2%; display: flex; flex-direction: column;}
+.formulaire{     HEIGHT: 493px; padding: 0% 5%;}     
+.btn.btn-primary {font-size: 20px;}
+footer { font-size: 25px; }
+.footer1 { display: flex; flex-direction: column;  }
+.title_img_footer {     font-size: 47px; margin-left: 0%;width: 38%;}
+.youtube-channel { width: 100%; }
+.video_rando1 ,  .video_rando2{ width: 98%; height: 500px; margin-right: 1%; margin-top:1%; } 
+.contact-info__item__text {font-size: 39px;}
+.ligne3 {
+    background: #47a0ff;
+    width: 6px;
+    margin-right: 8%;
+    margin-left: 1%;
+    margin-bottom: 9%;
+    margin-top: 14%;}
+.ligne2 {
+        background: #47a0ff;
+        margin-left: 9%;
+        width: 6px;
+        margin-right: 8%;
+        line-height: 2px;
+        margin-bottom: 10%;
+        margin-top: 10%;}
+body {   font-size: 20px;        background-repeat: repeat; background-size: 100%;}
+.title_form { width: 83%;}
+.ligne4{   margin-left: -11%;}
+#img4 {
+    margin-left: 6%;}
+}
